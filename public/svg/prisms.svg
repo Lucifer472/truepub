@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="0 0 810 810" fill="none" id="prisma">
+        <polyline points="0 267 541 267 541 808" />
+        <line x1="808" y1="0" x2="-2.87059265e-12" y2="808" />
+        <polygon points="808 -5.7411853e-12 -2.87870167e-12 267.050847 0 808 540.949153 808" />
+    </symbol>
+    <symbol id="top-left">
+        <use href="#prisma" transform="scale(1 -1)" transform-origin="center" />
+    </symbol>
+    <symbol id="top-right">
+        <use href="#prisma" transform="scale(-1 -1)" transform-origin="center" />
+    </symbol>
+    <symbol id="bottom-right">
+        <use href="#prisma" transform="scale(-1 1)" transform-origin="center" />
+    </symbol>
+    <symbol id="bottom-left">
+        <use href="#prisma" transform-origin="center" />
+    </symbol>
+</svg>
