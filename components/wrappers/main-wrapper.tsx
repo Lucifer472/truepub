@@ -56,7 +56,7 @@ const MainWrapper = ({ children }: { children: React.ReactNode }) => {
               setMinusHeight(screenHeight);
             }
           }
-
+          setIndex(`${navigationLinks[currentIndex + 1].link}`);
           timeoutId = setTimeout(() => {
             timeoutId = null;
           }, 700);
@@ -69,7 +69,7 @@ const MainWrapper = ({ children }: { children: React.ReactNode }) => {
     return () => {
       window.removeEventListener("wheel", handleScroll);
     };
-  }, [router, setHeight, setMinusHeight, isJob]);
+  }, [router, setHeight, setMinusHeight, isJob, setIndex]);
 
   useEffect(() => {
     let startY: number | null = null;
@@ -105,6 +105,8 @@ const MainWrapper = ({ children }: { children: React.ReactNode }) => {
               setMinusHeight(screenHeight);
             }
           }
+
+          setIndex(`${navigationLinks[currentIndex + 1].link}`);
         }
       }
 
@@ -118,7 +120,7 @@ const MainWrapper = ({ children }: { children: React.ReactNode }) => {
       window.removeEventListener("touchstart", handleTouchStart);
       window.removeEventListener("touchend", handleTouchEnd);
     };
-  }, [router, setHeight, setMinusHeight, isJob]);
+  }, [router, setHeight, setMinusHeight, isJob, setIndex]);
 
   return (
     <div

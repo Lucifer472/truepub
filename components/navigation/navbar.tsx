@@ -33,7 +33,7 @@ const Navbar = () => {
       >
         <ClientWrappers>
           <div className="container h-16 flex items-center justify-between">
-            <Logo width={280} height={80} />
+            <Logo />
             <NavBtn />
           </div>
         </ClientWrappers>
@@ -48,7 +48,7 @@ const Navbar = () => {
       >
         <ClientWrappers>
           <div className="container h-16 flex items-center justify-between">
-            <Logo width={280} height={80} />
+            <Logo />
             <NavBtn />
           </div>
         </ClientWrappers>

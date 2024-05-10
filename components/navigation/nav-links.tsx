@@ -36,6 +36,7 @@ export const NavLink = ({
     const navigateIndex = navigationLinks.findIndex((l) => l.link === link);
 
     console.log(screenHeight * (navigateIndex - currentIndex));
+    console.log(current);
 
     if (currentIndex !== 0 && navigateIndex < currentIndex) {
       setMinusHeight(screenHeight * (currentIndex - navigateIndex));
