@@ -1,5 +1,5 @@
 import ImageSlider from "@/components/image-slider";
-import { imgs } from "@/constant";
+import { teamImgs } from "@/constant";
 
 const View3 = () => {
   return (
@@ -18,7 +18,7 @@ const View3 = () => {
         </div>
       </div>
       <div className="col-span-2 w-full h-full overflow-hidden">
-        <ImageSlider imgs={imgs} />
+        <ImageSlider imgs={teamImgs} />
       </div>
     </div>
   );

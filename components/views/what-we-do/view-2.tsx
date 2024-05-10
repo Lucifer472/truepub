@@ -1,7 +1,7 @@
 const View2 = () => {
   return (
     <div className="w-full h-full relative">
-      <div className="flex flex-col-reverse justify-end pt-32 pb-12 pl-8 sm:pb-16 sm:pl-16 lg:pt-0 lg:pl-0 lg:pb-0 lg:grid lg:grid-cols-3 lg:mt-36 xl:mt-0 gap-x-32 w-full px-4 h-full relative">
+      <div className="flex flex-col-reverse justify-end pt-32 pb-12 pl-4 sm:pb-16 sm:pl-16 lg:pt-0 lg:pl-0 lg:pb-0 lg:grid lg:grid-cols-3 lg:mt-36 xl:mt-0 gap-x-32 w-full px-4 h-full relative">
         <div className="col-span-1 w-full lg:h-full flex flex-col gap-y-4 items-start justify-end lg:pl-32 lg:pb-32">
           <h2 className="text-[2rem] sm:text-[3rem] md:text-[3.5rem] font-extralight text-center leading-[1em]">
             Building Technology

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | True Pub Media Solution",
+  title: "Privacy Policy | TRUEPUB MEDIA Solution",
 };
 
 const ContactPage = () => {
@@ -18,17 +18,17 @@ const ContactPage = () => {
           1.1 This Privacy Policy (hereinafter: “Policy”) is used by TRUE PUB
           MEDIA, a company with limited liability under the laws of the India,
           with its registered office and primary place of business at 501,Kabir
-          Shilp, Kudasan, Gandhinagar. TRUE PUB MEDIA can be reached via our
+          Shilp, Kudasan, Gandhinagar. TRUEPUB MEDIA can be reached via our
           <Link href={"/contact-us"} className="underline text-sky-600">
             Contact Form.
           </Link>
           <br />
           <br />
-          1.2 TRUE PUB MEDIA is committed to protecting your privacy. This
+          1.2 TRUEPUB MEDIA is committed to protecting your privacy. This
           Policy describes what we do with your data and applies to all
           information that identifies you or may be used to identify you with
-          (“Personal data”) by TRUE PUB MEDIA, such as but not limited to
-          processing via the TRUE PUB MEDIA websites (hereinafter: “Websites”).
+          (“Personal data”) by TRUEPUB MEDIA, such as but not limited to
+          processing via the TRUEPUB MEDIA websites (hereinafter: “Websites”).
           The Websites are intended for general audiences over the age of 16
           years old. We do not knowingly collect information from children under
           the age of 16 years old.
@@ -73,12 +73,12 @@ const ContactPage = () => {
           2 Processing of Personal data
         </span>
         <p className="font-light text-xs md:text-sm text-justify">
-          2.1 TRUE PUB MEDIA is a data controller under the General Data
+          2.1 TRUEPUB MEDIA is a data controller under the General Data
           Protection Regulation (GDPR). This means that with regard to any
-          Personal data referred to in this Policy, TRUE PUB MEDIA determines
+          Personal data referred to in this Policy, TRUEPUB MEDIA determines
           the purpose for which we process this data and we determine the means
           necessary for the processing of this data. As a data controller, we
-          process the data set out in this section. TRUE PUB MEDIA does not
+          process the data set out in this section. TRUEPUB MEDIA does not
           engage in automated decision-making. Data collected directly from you{" "}
           <br />
           <br /> 2.2 When you access our Websites, we may (automatically)
@@ -185,7 +185,7 @@ const ContactPage = () => {
           on your general location, but not on your interests, search history,
           or browsing history. Your information can still be used for measure
           the effectiveness of advertising and protect against fraud and abuse.
-          Please note: TRUE PUB MEDIA is not responsible for tracking cookies
+          Please note: TRUEPUB MEDIA is not responsible for tracking cookies
           which you have previously accepted while visiting third-party
           websites. These third parties are data controllers and must inform
           you.
@@ -291,7 +291,7 @@ const ContactPage = () => {
             Our legitimate interests: your Personal data may be processed by us
             based on our legitimate interest, such as our commercial interests.
             This may be the case with, among others, compensation of our
-            partners. TRUE PUB MEDIAs websites are search engines for different
+            partners. TRUEPUB MEDIAs websites are search engines for different
             types of visitors from all over the world. After you submit a search
             query, the most relevant content and ads will be displayed.
             Information is collected for functional purposes only. Data is only
@@ -314,7 +314,7 @@ const ContactPage = () => {
           5 Recipients of your Personal data
         </span>
         <p className="font-light text-xs md:text-sm text-justify">
-          5.1 TRUE PUB MEDIA may transfer your Personal data to the following
+          5.1 TRUEPUB MEDIA may transfer your Personal data to the following
           categories of recipients:
         </p>
         <ul className="list-disc ml-8 flex flex-col items-start gap-y-2 font-light text-sm">
@@ -329,7 +329,7 @@ const ContactPage = () => {
           </li>
           <li>
             Group companies: we may provide Personal data to other companies
-            within the TRUE PUB MEDIA group of companies, if this is necessary
+            within the TRUEPUB MEDIA group of companies, if this is necessary
             for compliance, internal reporting, auditing or security purposes.
           </li>
           <li>
@@ -361,7 +361,7 @@ const ContactPage = () => {
           </li>
           <li>
             Third parties: we may transfer data to third parties acquiring or
-            merging with TRUE PUB MEDIA, or purchasing part or all of our
+            merging with TRUEPUB MEDIA, or purchasing part or all of our
             assets, or in case of a corporate restructuring.
           </li>
         </ul>
@@ -408,7 +408,7 @@ const ContactPage = () => {
           <li>The pseudonymisation and encryption of Personal Data;</li>
           <li>
             Group companies: we may provide Personal data to other companies
-            within the TRUE PUB MEDIA group of companies, if this is necessary
+            within the TRUEPUB MEDIA group of companies, if this is necessary
             for compliance, internal reporting, auditing or security purposes.
           </li>
           <li>
@@ -495,7 +495,7 @@ const ContactPage = () => {
       <div className="flex flex-col items-start gap-y-2">
         <span className="text-sm md:text-base">9 Amendments and questions</span>
         <p className="font-light text-xs md:text-sm text-justify">
-          9.1 TRUE PUB MEDIA may amend this Policy at any time. In case the
+          9.1 TRUEPUB MEDIA may amend this Policy at any time. In case the
           Policy is amended, the amended Policy will be made available to you
           through publication of the amended Policy on the Website.
         </p>

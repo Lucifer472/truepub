@@ -2,7 +2,7 @@ import ContactForm from "@/components/views/contact-form";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us | True Pub Media Solution",
+  title: "Contact Us | TRUEPUB MEDIA Solution",
 };
 
 const ContactPage = () => {

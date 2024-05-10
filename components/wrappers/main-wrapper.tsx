@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 
 import { getHashFromUrl } from "@/lib/utils";
@@ -22,16 +22,6 @@ const MainWrapper = ({ children }: { children: React.ReactNode }) => {
   const isJob = useOpeningChangeState((state) => state.opening);
 
   useEffect(() => {
-    const hash = getHashFromUrl(window.location.href);
-    setIndex(hash);
-    const mainHeight =
-      navigationLinks.findIndex((item) => item.link === hash) *
-      window.innerHeight;
-
-    setHeight(mainHeight);
-  }, [setHeight, setIndex]);
-
-  useEffect(() => {
     let timeoutId: NodeJS.Timeout | null = null;
 
     const handleScroll = (e: any) => {
@@ -48,15 +38,16 @@ const MainWrapper = ({ children }: { children: React.ReactNode }) => {
           if (scrollDirection === "down") {
             if (hash !== navigationLinks[navigationLinks.length - 1].link) {
               router.push(`${navigationLinks[currentIndex + 1].link}`);
+              setIndex(`${navigationLinks[currentIndex + 1].link}`);
               setHeight(screenHeight);
             }
           } else {
             if (hash !== navigationLinks[0].link) {
               router.push(`${navigationLinks[currentIndex - 1].link}`);
+              setIndex(`${navigationLinks[currentIndex - 1].link}`);
               setMinusHeight(screenHeight);
             }
           }
-          setIndex(`${navigationLinks[currentIndex + 1].link}`);
           timeoutId = setTimeout(() => {
             timeoutId = null;
           }, 700);
@@ -95,6 +86,7 @@ const MainWrapper = ({ children }: { children: React.ReactNode }) => {
           if (swipeDistance > 0) {
             // Swipe up
             if (hash !== navigationLinks[navigationLinks.length - 1].link) {
+              setIndex(`${navigationLinks[currentIndex + 1].link}`);
               router.push(`${navigationLinks[currentIndex + 1].link}`);
               setHeight(screenHeight);
             }
@@ -102,11 +94,10 @@ const MainWrapper = ({ children }: { children: React.ReactNode }) => {
             // Swipe down
             if (hash !== navigationLinks[0].link) {
               router.push(`${navigationLinks[currentIndex - 1].link}`);
+              setIndex(`${navigationLinks[currentIndex - 1].link}`);
               setMinusHeight(screenHeight);
             }
           }
-
-          setIndex(`${navigationLinks[currentIndex + 1].link}`);
         }
       }
 
@@ -121,6 +112,16 @@ const MainWrapper = ({ children }: { children: React.ReactNode }) => {
       window.removeEventListener("touchend", handleTouchEnd);
     };
   }, [router, setHeight, setMinusHeight, isJob, setIndex]);
+
+  useEffect(() => {
+    const hash = getHashFromUrl(window.location.href);
+    setIndex(hash);
+    const mainHeight =
+      navigationLinks.findIndex((item) => item.link === hash) *
+      window.innerHeight;
+
+    setHeight(mainHeight);
+  }, [setHeight, setIndex]);
 
   return (
     <div

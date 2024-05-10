@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Disclaimer | True Pub Media Solution",
+  title: "Disclaimer | TRUEPUB MEDIA Solution",
 };
 
 const DisclaimerPage = () => {
@@ -11,21 +11,21 @@ const DisclaimerPage = () => {
         Disclaimer
       </h2>
       <p className="font-extralight text-xs md:text-sm text-justify">
-        TRUE PUB MEDIA is a metadata-search engine, which mean that different
-        search machines of TRUE PUB MEDIA search in more search engines on the
-        internet. The results that are displayed by TRUE PUB MEDIA as result of
+        TRUEPUB MEDIA is a metadata-search engine, which mean that different
+        search machines of TRUEPUB MEDIA search in more search engines on the
+        internet. The results that are displayed by TRUEPUB MEDIA as result of
         a search command of a user, originate from other search engines. TRUE
         PUB MEDIA shows the source of each result in its result list. It is
-        possible that TRUE PUB MEDIA shows in the search results direct links to
+        possible that TRUEPUB MEDIA shows in the search results direct links to
         files or web pages that contain material that is protected by copyright
         or other intellectual property rights. However this material can be
-        found and accessed by using the Website, TRUE PUB MEDIA does not and
+        found and accessed by using the Website, TRUEPUB MEDIA does not and
         cannot grant its users the permission to download, copy or use this
         material. The user alone is responsible and liable of the use, copy and
-        / or download of this material. TRUE PUB MEDIA is never responsible or
+        / or download of this material. TRUEPUB MEDIA is never responsible or
         liable for sanctions based on law or regulations of law suits of any
         kind against the user as result of using search services provided by
-        TRUE PUB MEDIA.
+        TRUEPUB MEDIA.
       </p>
       <div className="flex flex-col items-start gap-y-2">
         <span className="text-sm md:text-base">Functioning of the Website</span>
@@ -170,11 +170,11 @@ const DisclaimerPage = () => {
       <div className="flex flex-col items-start gap-y-2">
         <span className="text-sm md:text-base">Affiliate disclaimer</span>
         <p className="font-extralight text-xs md:text-sm text-justify">
-          TRUE PUB MEDIA offers a shopping experience as easy as possible. We
+          TRUEPUB MEDIA offers a shopping experience as easy as possible. We
           have relationships with various companies, organizations and entities
-          whose products or services may be listed on TRUE PUB MEDIA. If any of
+          whose products or services may be listed on TRUEPUB MEDIA. If any of
           those products or services are purchased through the links on this
-          website, then TRUE PUB MEDIA may be compensated. It may happen that
+          website, then TRUEPUB MEDIA may be compensated. It may happen that
           shops compensate us to help promote their products or services so that
           they are easier to find.{" "}
         </p>

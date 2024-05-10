@@ -84,14 +84,24 @@ export const companyHistory = [
 ];
 
 export const imgs = [
-  "/slider/1.jpg",
-  "/images/home-1.png",
-  "/images/home.png",
-  "/images/earth.jpg",
-  "/images/home.png",
-  "/images/earth.jpg",
-  "/images/home.png",
-  "/images/earth.jpg",
+  "/slider/workspace/1.png",
+  "/slider/workspace/2.png",
+  "/slider/workspace/3.png",
+  "/slider/workspace/4.png",
+  "/slider/workspace/5.png",
+  "/slider/workspace/6.png",
+  "/slider/workspace/7.png",
+];
+
+export const teamImgs = [
+  "/slider/team/1.png",
+  "/slider/team/2.png",
+  "/slider/team/3.png",
+  "/slider/team/4.png",
+  "/slider/team/5.png",
+  "/slider/team/6.png",
+  "/slider/team/7.png",
+  "/slider/team/8.png",
 ];
 
 export const benefits = [

@@ -4,7 +4,7 @@ const View2 = () => {
   return (
     <div className="w-full h-full relative">
       <div className="relative flex flex-col-reverse gap-y-8 px-8 md:px-0 items-center w-full lg:grid lg:grid-cols-2 xl:grid-cols-6">
-        <div className="col-span-1 w-[90%] sm:w-[60%] lg:w-full xl:col-span-3 relative lg:pt-32 md:pl-8 xl:pl-64">
+        <div className="col-span-1 w-[90%] sm:w-[60%] lg:w-full xl:col-span-3 relative lg:pt-32 md:pl-4 xl:pl-64">
           <Image
             src={"/images/what-we-do.png"}
             alt="what we do"

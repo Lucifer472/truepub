@@ -22,7 +22,7 @@ const ImageSlider = ({ imgs }: { imgs: string[] }) => {
         {imgs.map((i, index) => (
           <div
             key={index}
-            className="w-full h-full bg-no-repeat bg-center flex-shrink-0 basis-full"
+            className="w-full h-full bg-no-repeat bg-cover bg-center flex-shrink-0 basis-full"
             style={{
               backgroundImage: `url(${i})`,
             }}
